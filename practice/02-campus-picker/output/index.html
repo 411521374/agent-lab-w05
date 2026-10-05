@@ -291,6 +291,13 @@
       .meta {
         grid-column: 2;
       }
+    .disclaimer {
+      margin-top: 24px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px dashed var(--line);
+      padding-top: 12px;
     }
   </style>
 </head>
@@ -344,6 +351,9 @@
         </section>
       </div>
     </section>
+    <footer class="disclaimer">
+      <p data-i18n="disclaimer">教學模擬活動，不是校方公告</p>
+    </footer>
   </main>
 
   <script>
@@ -387,7 +397,8 @@
         locationFact: "Location",
         timeFact: "Time",
         energyFact: "Energy",
-        minutesText: value => `${value} minutes`
+        minutesText: value => `${value} minutes`,
+        disclaimer: "Teaching simulation activity, not an official campus announcement"
       },
       zh: {
         title: "校園活動抽選器",
@@ -413,7 +424,8 @@
         locationFact: "地點",
         timeFact: "時間",
         energyFact: "體力",
-        minutesText: value => `${value} 分鐘`
+        minutesText: value => `${value} 分鐘`,
+        disclaimer: "教學模擬活動，不是校方公告"
       }
     };
 
@@ -571,7 +583,7 @@
 
     controls.reset.addEventListener("click", () => {
       controls.location.value = "any";
-      controls.minutes.value = "any";
+      controls.minutes.value = "30";
       controls.energy.value = "any";
       state.current = null;
       render();
