@@ -1,0 +1,62 @@
+[
+  {
+    "source": "announcement.txt",
+    "destination": "02-communications/announcement.txt",
+    "reason": "Draft announcement for club members"
+  },
+  {
+    "source": "announcement_copy.txt",
+    "destination": "02-communications/announcement_copy.txt",
+    "reason": "Duplicate copy of announcement.txt preserved as backup"
+  },
+  {
+    "source": "budget_draft.txt",
+    "destination": "01-planning/budget_draft.txt",
+    "reason": "Draft budget proposal (unapproved expense note)"
+  },
+  {
+    "source": "equipment_backup.txt",
+    "destination": "01-planning/equipment_backup.txt",
+    "reason": "Duplicate copy of equipment_list.txt preserved as backup"
+  },
+  {
+    "source": "equipment_list.txt",
+    "destination": "01-planning/equipment_list.txt",
+    "reason": "Equipment inventory list for activities"
+  },
+  {
+    "source": "feedback_questions.txt",
+    "destination": "03-review/feedback_questions.txt",
+    "reason": "Post-event participant feedback questions"
+  },
+  {
+    "source": "meeting_notes.txt",
+    "destination": "01-planning/meeting_notes.txt",
+    "reason": "Meeting discussion notes on activity venue options"
+  },
+  {
+    "source": "next_steps.txt",
+    "destination": "01-planning/next_steps.txt",
+    "reason": "Planning instructions regarding proposal comparison"
+  },
+  {
+    "source": "poster_text.txt",
+    "destination": "02-communications/poster_text.txt",
+    "reason": "Promotional copy for event poster"
+  },
+  {
+    "source": "proposal_final.txt",
+    "destination": "01-planning/proposal_final.txt",
+    "reason": "Proposal draft v1 for outdoor 30-minute activity"
+  },
+  {
+    "source": "proposal_final2.txt",
+    "destination": "01-planning/proposal_final2.txt",
+    "reason": "Proposal draft v2 for indoor 20-minute activity"
+  },
+  {
+    "source": "rain_plan.txt",
+    "destination": "01-planning/rain_plan.txt",
+    "reason": "Contingency note in case of rain"
+  }
+]
