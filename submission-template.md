@@ -5,21 +5,23 @@ Use a group code, not real names or student IDs in shared files. / 共用檔只�
 - Group code / 組別：G-411521374
 - Tool / 工具：Antigravity (Gemini 3.8 Flash)
 - Route / 路線：individual 個人
-- Tasks completed / 完成題目：A, B, D
+- Tasks completed / 完成題目：A, B, C, D
 - Material / 素材：NDHU classroom tasks 東華課堂版
 - For original-pack work: task number, author/source link and version / 原版實作：題號、作者來源連結與版本：無（採用東華課堂版）
-- My role and what I checked / 我的角色與實際檢查：負責提示詞輸入、嚴格限定讀寫權限於題目目錄、比對檔案 SHA-256 雜湊確認原檔未遭異動、依測試矩陣執行活動挑選器各條件實測、審查並退回不安全之全域整理計畫。
+- My role and what I checked / 我的角色與實際檢查：負責提示詞輸入、嚴格限定讀寫權限於題目目錄、比對檔案 SHA-256 雜湊確認原檔未遭異動、依測試矩陣執行活動挑選器各條件實測、審查器材清理清單與保留衝突ID、審查並退回不安全之全域整理計畫。
 
 ## Scope and plan / 範圍與計畫
 
 Allowed input and output folders / 可讀取與輸出的資料夾：
 - 任務 A：輸入 `practice/01-club-files/input` (唯讀)，輸出 `practice/01-club-files/output` (新增副本與清單)
 - 任務 B：輸入 `practice/02-campus-picker/activities.json` (唯讀)，輸出 `practice/02-campus-picker/output/index.html` (單頁應用)
+- 任務 C：輸入 `practice/03-equipment/equipment.json` (唯讀)，輸出 `practice/03-equipment/output/normalized.json, issues.md` (清理資料與問題清單)
 - 任務 D：輸入 `practice/04-review/bad-plan.txt` (唯讀)，輸出 `practice/04-review/my-rejection.md` (退回說明文件)
 
 What I asked for / 原始需求：
 - 任務 A：讀取 input 中的 12 個文字檔，不刪除、不修改原檔，依功能分類複製至 output，並產生完整的 `report.md` 與 `manifest.json` 對照清單。
 - 任務 B：基於 `activities.json` 製作無依賴之單頁離線 HTML 活動挑選器，支援地點、時間、強度篩選與隨機挑選、保留最近 5 筆紀錄、具重設篩選與中英文雙語支援，並加註教學模擬免責宣告。
+- 任務 C：清理 `equipment.json`，去文字前後空白、標準化狀態、保留原始 row 序號與衝突/重複 ID、空物件移除、原樣保留空值與負數數量並列入報告。
 - 任務 D：審查 `bad-plan.txt`，挑出至少兩項違規/不安全操作，提出明確退回理由與合理改善方案。
 
 What I checked before execution / 動手前我檢查了什麼：
