@@ -1,6 +1,4 @@
-# My lab evidence / 我的實作紀錄
-
-Use a group code, not real names or student IDs in shared files. / 共用檔只寫組別代碼，不寫姓名或學號。
+# Learning Record / 學習紀錄
 
 - Group code / 組別：G-411521374
 - Tool / 工具：Antigravity (Gemini 3.8 Flash)
